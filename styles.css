@@ -33,12 +33,24 @@
   padding-bottom: 10%;
   
 }
+#design {
+    cursor: pointer;
+
+}
+
+
+
+
+
+
+
 .service-tasks {
     padding: 40px;
 }
-#portfolio {
-    margin: 20px;
+.portfolio {
+    padding: 30px;
 }
+
 .contact-us {
     background: grey;
     height: 500px;
@@ -53,5 +65,63 @@ input[type=text],input[type=email] {
   background: transparent;
   color: white;
   font-size: 20px;
-  
+  width: 80%;
+}
+
+#message {
+    background: transparent;
+    width: 150%;
+    color: white;
+}
+footer {
+    text-align: center;
+}
+
+
+
+.our-portfolio img{
+    height: 100%;
+    width: 100%
+}
+.our-portfolio2 img {
+    height: 100%;
+    width: 100%
+}
+#black-studio {
+    position: relative;
+
+}
+.text1 {
+    position: absolute;
+    display: none;
+}
+#ontario {
+    position: relative;
+}
+.text2 {
+     position: absolute;
+    display: none;
+}
+#pyramids {
+    position: relative;
+}
+
+.text3 {
+     position: absolute;
+    display: none;
+}
+#jim-carry{
+    position: relative;
+}
+.text4 {
+     position: absolute;
+    display: none;
+}
+.text5 {
+     position: absolute;
+    display: none;
+}
+.text6 {
+     position: absolute;
+    display: none;
 }
