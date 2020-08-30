@@ -1,7 +1,7 @@
 
 .landing-page {
     height: 750px;
-    background-image: url('https://i.imgur.com/i1eFM2N.jpg');
+    background: red;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -14,6 +14,10 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.mouse-click {
+    margin-top: 200px;
+}
+
 .about-services {
     background-image: url('https://imgur.com/LvKtbkb.jpg');
     background-repeat: no-repeat;
@@ -21,7 +25,6 @@
     position: relative;
     text-align: center;
     font-size: 15px;
-    width: 100%;
     
 }
 #section-services {
@@ -35,4 +38,20 @@
 }
 #portfolio {
     margin: 20px;
+}
+.contact-us {
+    background: grey;
+    height: 500px;
+    color: white
+}
+.contact-us h3 {
+    text-align: center;
+}
+
+
+input[type=text],input[type=email] {
+  background: transparent;
+  color: white;
+  font-size: 20px;
+  
 }
