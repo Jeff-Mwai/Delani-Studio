@@ -1,7 +1,7 @@
 
 .landing-page {
     height: 750px;
-    background: red;
+    background-image: url('https://imgur.com/i1eFM2N.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -126,7 +126,7 @@ cursor: pointer
 }
 
 .contact-us {
-    background: grey;
+    background-image: url('https://imgur.com/vY4k2Cv.jpg');
     height: 500px;
     color: white
 }
