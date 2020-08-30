@@ -35,14 +35,22 @@
 }
 #design {
     cursor: pointer;
-
 }
-
-
-
-
-
-
+#design-text {
+    display: none;
+}
+#development {
+cursor: pointer
+}
+#development-text {
+    display: none;
+}
+#product {
+    cursor: pointer;
+}
+#product-text {
+    display: none;
+}
 
 .service-tasks {
     padding: 40px;
@@ -50,35 +58,6 @@
 .portfolio {
     padding: 30px;
 }
-
-.contact-us {
-    background: grey;
-    height: 500px;
-    color: white
-}
-.contact-us h3 {
-    text-align: center;
-}
-
-
-input[type=text],input[type=email] {
-  background: transparent;
-  color: white;
-  font-size: 20px;
-  width: 80%;
-}
-
-#message {
-    background: transparent;
-    width: 150%;
-    color: white;
-}
-footer {
-    text-align: center;
-}
-
-
-
 .our-portfolio img{
     height: 100%;
     width: 100%
@@ -107,21 +86,72 @@ footer {
 }
 
 .text3 {
-     position: absolute;
+    position: absolute;
     display: none;
 }
 #jim-carry{
     position: relative;
 }
 .text4 {
-     position: absolute;
+    position: absolute;
     display: none;
+}
+#nice-day {
+    position: relative;
 }
 .text5 {
-     position: absolute;
+    position: absolute;
     display: none;
+}
+#calculator {
+    position: relative;
 }
 .text6 {
-     position: absolute;
+    position: absolute;
     display: none;
 }
+#burned {
+    position: relative;
+}
+.text7 {
+    position: absolute;
+    display: none;
+}
+#giraffe {
+    position: relative;
+}
+.text8 {
+    position: absolute;
+    display: none;
+}
+
+.contact-us {
+    background: grey;
+    height: 500px;
+    color: white
+}
+.contact-us h3 {
+    text-align: center;
+}
+
+input[type=text],input[type=email] {
+  background: transparent;
+  color: white;
+  font-size: 20px;
+  width: 80%;
+}
+
+#message {
+    background: transparent;
+    width: 150%;
+    color: white;
+}
+footer {
+    text-align: center;
+}
+
+
+
+
+
+
