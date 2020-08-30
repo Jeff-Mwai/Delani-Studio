@@ -14,6 +14,15 @@ $('#jim-carry').hover(function(){
 $('#nice-day').hover(function(){
     $('.text5').toggle();
     })
+$('#calculator').hover(function(){
+    $('.text6').toggle();
+    })
+$('#burned').hover(function(){
+    $('.text7').toggle();
+    })
+$('#giraffe').hover(function(){
+    $('.text8').toggle();
+    })
 
 
 
@@ -26,7 +35,14 @@ $('#nice-day').hover(function(){
 
 
 $('#design').click(function() {
-$('#click-text').toggle();
+$('#design-text').toggle();
 })
 
+$('#development').click(function() {
+$('#development-text').toggle();
+})
+
+$('#product').click(function() {
+$('#product-text').toggle();
+})
 });
