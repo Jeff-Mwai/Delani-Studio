@@ -1,3 +1,11 @@
+$(document).ready(function(){ 
+$("form#frm").submit(function(event){ 
+var name = $('#inputName').val();
+event.preventDefault();
+alert('Hey ' + name + ', we have received your message. Thank you reaching out to us.')
+});
+});
+
 $(document).ready(function() {
     $('#black-studio').hover(function(){
     $('.text1').toggle();
@@ -29,6 +37,7 @@ $('#design-text').toggle();
 })
 
 $('#development').click(function() {
+
 $('#development-text').toggle();
 })
 
