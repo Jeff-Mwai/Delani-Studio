@@ -24,16 +24,6 @@ $('#giraffe').hover(function(){
     $('.text8').toggle();
     })
 
-
-
-
-
-
-
-
-
-
-
 $('#design').click(function() {
 $('#design-text').toggle();
 })
