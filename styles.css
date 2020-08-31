@@ -78,11 +78,6 @@ cursor: pointer
     position: relative;
 
 }
-#black-studio img:hover {
-    height: 102%;
-    width: 102%;
-    transition: all .3s;
-}
 .text1 {
     margin-top: 70px;
     margin-left: 25px;
@@ -92,11 +87,6 @@ cursor: pointer
 }
 #ontario {
     position: relative;
-}
-#ontario img:hover {
-    height: 102%;
-    width: 102%;
-    transition: all .3s;
 }
 .text2 {
     margin-top: 70px;
