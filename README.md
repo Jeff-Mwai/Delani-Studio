@@ -1,5 +1,4 @@
 # Delani-Studio
-Delani-Studio
 #### This is the application of Delani Studio, whereby potential clients can find relevant information regarding the services offered.
 #### By **Jeffrey Mwai**
 ## Description
