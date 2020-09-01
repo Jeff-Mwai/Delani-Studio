@@ -34,6 +34,9 @@
     font-size: 15px;
     
 }
+.img {
+    margin-bottom: 40px;
+}
 
 #section-services {
   background-color: rgba(0,0,0,0.4);
@@ -43,12 +46,13 @@
 }
 #design {
     cursor: pointer;
+    
 }
 #design-text {
     display: none;
 }
 #development {
-cursor: pointer
+    cursor: pointer;
 }
 #development-text {
     display: none;
@@ -59,6 +63,7 @@ cursor: pointer
 #product-text {
     display: none;
 }
+
 
 .service-tasks {
     padding: 40px;
@@ -82,7 +87,7 @@ cursor: pointer
     margin-top: 70px;
     margin-left: 25px;
     position: absolute;
-    border: 3px solid white;
+    border: 6px solid white;
     display: none;
 }
 #ontario {
@@ -91,7 +96,7 @@ cursor: pointer
 .text2 {
     margin-top: 70px;
     margin-left: 25px;
-    border: 3px solid white;
+    border: 6px solid white;
      position: absolute;
     display: none;
 }
@@ -102,7 +107,7 @@ cursor: pointer
 .text3 {
     margin-top: 70px;
     margin-left: 25px;
-    border: 3px solid white;
+    border: 6px solid white;
     position: absolute;
     display: none;
 }
@@ -112,7 +117,7 @@ cursor: pointer
 .text4 {
     margin-top: 70px;
     margin-left: 25px;
-    border: 3px solid white;
+    border: 6px solid white;
     position: absolute;
     display: none;
 }
@@ -122,7 +127,7 @@ cursor: pointer
 .text5 {
     margin-top: 70px;
     margin-left: 25px;
-    border: 3px solid white;
+    border: 6px solid white;
     position: absolute;
     display: none;
 }
@@ -132,7 +137,7 @@ cursor: pointer
 .text6 {
     margin-top: 70px;
     margin-left: 25px;
-    border: 3px solid white;
+    border: 6px solid white;
     position: absolute;
     display: none;
 }
@@ -142,7 +147,7 @@ cursor: pointer
 .text7 {
     margin-top: 70px;
     margin-left: 25px;
-    border: 3px solid white;
+    border: 6px solid white;
     position: absolute;
     display: none;
 }
@@ -152,7 +157,7 @@ cursor: pointer
 .text8 {
     margin-top: 70px;
     margin-left: 25px;
-    border: 3px solid white;
+    border: 6px solid white;
     position: absolute;
     display: none;
 }
@@ -188,4 +193,6 @@ input[type=text],input[type=email] {
 footer {
     text-align: center;
 }
-
+#inputName {
+    margin-left: 40px;
+}
