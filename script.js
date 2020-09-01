@@ -2,7 +2,7 @@ $(document).ready(function(){
 $("form#frm").submit(function(event){ 
 var name = $('#inputName').val();
 event.preventDefault();
-alert('Hey ' + name + ', we have received your message. Thank you reaching out to us.')
+alert('Hey ' + name + ', we have received your message. Thank you for reaching out to us.')
 });
 });
 
@@ -33,15 +33,30 @@ $('#giraffe').hover(function(){
     })
 
 $('#design').click(function() {
-$('#design-text').toggle();
+$('#design').slideDown('1500').hide('1000');
+$('#design-text').show('1500');
+})
+$('#design-text').click(function() {
+$('#design').slideUp('1500').show('1000');
+$('#design-text').slideDown('1500').hide('1000');
 })
 
 $('#development').click(function() {
+$('#development').slideDown('1500').hide('1000');
+$('#development-text').show('1500');
+})
 
-$('#development-text').toggle();
+$('#development-text').click(function() {
+$('#development').slideUp('1500').show('1000');
+$('#development-text').slideDown('1500').hide('1000');
 })
 
 $('#product').click(function() {
-$('#product-text').toggle();
+$('#product').slideDown('1500').hide('1000');
+$('#product-text').slideUp('1500').show('1500');
+})
+$('#product-text').click(function() {
+$('#product').slideDown('1500').show('1000');
+$('#product-text').slideUp('1500').hide('1000');
 })
 });
